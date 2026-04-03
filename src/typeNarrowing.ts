@@ -23,3 +23,12 @@ function orderChai(size: "small" | "medium" | "large" | number) {
 
      return `chai order ${size}`
 }
+
+console.log(typeNarrowing("green"));
+console.log(typeNarrowing(5));
+console.log(serveChai());
+console.log(serveChai("Special chai message"));
+console.log(orderChai("small"));
+console.log(orderChai("medium"));
+console.log(orderChai("large"));
+console.log(orderChai(10));
